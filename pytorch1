@@ -1,0 +1,19 @@
+###1.不加初始化的构建矩阵(5行3列为例)
+###
+x = torch.empty(5， 3)x
+print(x)
+
+###2.随机初始化矩阵构建(5行3列)
+###
+x = torch.rand(5, 3)
+
+
+###3.构建全为0的矩阵且指定数据类型为long
+###
+x = torch.zeros(5, 3, dtype = torch.long)
+
+###4.创建一个tensor
+###
+x = torch.tensor([5.5, 3])
+
+###
